@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
-@Entity
+@Entity(name="seat_type_shows")
 public class SeatTypeShow extends BaseModel{
     private SeatType seatType;
     @ManyToOne
